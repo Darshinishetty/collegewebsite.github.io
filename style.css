@@ -1,0 +1,179 @@
+body, h1, h2, h3, p, ul, il{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    margin: 5px;
+    background-color: aqua;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    background: color #333;
+    color:rgb(16, 37, 121);
+}
+
+.logo img{ 
+    max-height:140px;
+}
+
+.college-info{
+    margin-left:20px;
+   text-size-adjust: 20px;
+}
+
+nav{
+    background-color:#201c72;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    padding:10px;
+}
+
+.menu li{
+    margin-right:20px;
+}
+
+.menu a{
+    color:rgb(247, 243, 243);
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.submenu{
+    display:none;
+    position:absolute;
+    background-color:#0e0b0b;
+    list-style:none;
+    padding:10px;
+}
+
+.dropdown:hover .submenu{
+    display:block;
+}
+
+.submenu li{
+    margin:5px 0;
+}
+
+li a:hover{
+    background-color:white;
+    color:black;
+}
+
+footer{
+    margin-top:auto;
+    background-color:#201c72;
+    color: white;
+    text-align:center;
+    padding:20px;
+}
+
+.social-media img{
+    height:20px;
+    margin:0 5px;
+}
+
+.para p{
+    margin-bottom: 20px;
+}
+
+.contact{
+    margin: 10px;
+}
+
+.hour{
+    margin: 2px;
+}
+
+.loc{
+    margin: 10px;
+}
+ 
+.address{
+    margin: 2px;
+}
+
+
+.poster {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+hr{
+    margin-left: 70px;
+}
+
+.image-container{
+    display:flex;
+    gap: 70px;
+    width:"600";
+    height:"800";
+}
+.image{
+    max-width: 50%;
+    height: auto;
+    
+}
+
+
+.image-container1{
+    display:flex;
+    gap: 50px;
+   
+}
+.image1{
+    max-width: 50%;
+    width:"500";
+    height:"800";
+    
+}
+
+
+
+.image2{
+    max-width: 50%;
+    width:"500";
+    height:"800";
+    
+}
+
+
+.container5{
+    display:flex;
+    align-items: center;
+}
+
+.text1{
+    flex:1;
+
+}
+
+
+.image5{
+    margin-left:20px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
